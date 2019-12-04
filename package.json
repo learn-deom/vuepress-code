@@ -1,0 +1,25 @@
+{
+  "name": "my-docs",
+  "version": "0.0.1",
+  "description": "MYDOCS",
+  "main": "index.js",
+  "authors": {
+    "name": "power",
+    "email": "1410837981@qq.com"
+  },
+  "repository": "/my-docs",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0",
+    "@vuepress/plugin-medium-zoom": "^1.0.0",
+    "vuepress": "^1.0.0"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.1.1",
+    "vuepress-theme-reform": "^1.4.0"
+  }
+}
